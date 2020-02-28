@@ -1,0 +1,38 @@
+@import './settings';
+
+.main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-right: 8px;
+
+  &-banner {
+    display: flex;
+    flex-direction: row;
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__Right {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__left img,
+    &__right img {
+      margin: 8px 8px 0 0;
+    }
+  }
+
+  &-bestsellers {
+    margin-top: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    & a {
+      color: $color-main;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import './settings';
+
+.header {
+  background-color: $color-main;
+  text-align: center;
+  color: $color-secondary;
+
+  &-logo {
+    width: 165px;
+    height: 48px;
+    margin: 10px auto;
+  }
+
+  &-navigation {
+    margin: 0;
+    padding: 10px 0 18px 0;
+    list-style-type: none;
+
+    & li {
+      display: inline-block;
+      padding: 0 25px;
+      letter-spacing: 1px;
+      font-size: 15px;
+
+      & a:hover {
+        color: $color-third;
+      }
+    }
+  }
+}

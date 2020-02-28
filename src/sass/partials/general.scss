@@ -1,0 +1,19 @@
+@import './settings';
+
+body {
+  font-family: $font-main;
+}
+
+a {
+  text-decoration: none;
+  color: $color-secondary;
+}
+
+h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 32px;
+  font-weight: bold;
+  text-align: center;
+}
