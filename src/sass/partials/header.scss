@@ -4,6 +4,9 @@
   background-color: $color-main;
   text-align: center;
   color: $color-secondary;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
   &-logo {
     width: 165px;
