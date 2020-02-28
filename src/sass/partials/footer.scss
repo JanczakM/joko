@@ -1,0 +1,35 @@
+@import './settings';
+
+.footer {
+  background-color: $color-main;
+  color: $color-secondary;
+
+  &-container {
+    max-width: $content-width;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  &-box {
+    margin: 20px 15px 0 15px;
+
+    &-header {
+      text-transform: uppercase;
+
+      &::after {
+        content: '';
+        display: block;
+        margin: 18px 0;
+        width: 55px;
+        height: 3px;
+        background-color: $color-secondary;
+      }
+    }
+
+    &-links {
+      text-transform: uppercase;
+    }
+  }
+}
