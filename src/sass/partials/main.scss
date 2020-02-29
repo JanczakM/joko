@@ -10,24 +10,37 @@
 //main banner
 
 .main-banner {
+  margin-top: 130px;
   display: flex;
-  flex-direction: row;
-  margin-top: 122px;
-
-  &__right {
-    display: flex;
-    flex-direction: column;
-  }
+  max-width: 100%;
+  justify-content: center;
 
   &__left {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    max-width: 70%;
+    justify-content: flex-start;
   }
 
-  &__left img,
-  &__right img {
-    margin: 8px 8px 0 0;
+  &__right {
+    max-width: 30%;
+  }
+}
+
+.img-half {
+  max-width: 49%;
+  margin-right: 1%;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.img-full {
+  max-width: 99%;
+
+  & img {
+    width: 100%;
   }
 }
 
@@ -68,7 +81,7 @@
 
   & img {
     width: 161px;
-    height: auto;
+    height: 161px;
   }
 }
 

@@ -94,11 +94,13 @@
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
-  .main-banner {
-    display: none;
+@media only screen and (max-width: 1150px) {
+  .main-promo-container img {
+    width: 50%;
   }
+}
 
+@media only screen and (max-width: 950px) {
   .main-bestsellers-container {
     flex-direction: column;
   }
@@ -108,16 +110,16 @@
     align-items: center;
 
     & img {
-      width: 80%;
+      max-width: 100%;
     }
 
     &-desc {
-      width: 80%;
+      max-width: 80%;
     }
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 670px) {
   .nav-mobile {
     display: block;
   }
@@ -132,5 +134,19 @@
 
   .footer-box {
     border-bottom: 1px solid $color-secondary;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .main-bestsellers-box {
+    & h3 {
+      font-size: 13px;
+    }
+
+    & img {
+      width: 130px;
+      height: 130px;
+    }
   }
 }
