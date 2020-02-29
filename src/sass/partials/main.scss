@@ -92,13 +92,16 @@
   flex-direction: row;
   margin-bottom: 25px;
 
-  & img {
-    width: 815px;
-    height: auto;
+  &-img {
+    width: 60%;
+
+    & img {
+      width: 100%;
+    }
   }
 
   &-desc {
-    width: 560px;
+    width: 40%;
     background-color: $color-fourth;
     padding: 30px;
   }

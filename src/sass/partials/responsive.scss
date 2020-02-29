@@ -94,12 +94,6 @@
   display: none;
 }
 
-@media only screen and (max-width: 1150px) {
-  .main-promo-container img {
-    width: 50%;
-  }
-}
-
 @media only screen and (max-width: 950px) {
   .main-bestsellers-container {
     flex-direction: column;
@@ -109,12 +103,12 @@
     flex-direction: column;
     align-items: center;
 
-    & img {
-      max-width: 100%;
+    &-img {
+      width: 90%;
     }
 
     &-desc {
-      max-width: 80%;
+      width: 90%;
     }
   }
 }
